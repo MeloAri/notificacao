@@ -1,0 +1,24 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ariteomiran@gmail.com
+    password: aacqatutssweutjb
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+        debug: true
+
+envio:
+  email:
+    remetente: ariteomiran@gmail.com
+    nome-remetente: 'Ariel'
+
+server:
+  port: 8082
